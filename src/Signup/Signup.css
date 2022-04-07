@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+html{
+    font-size:62.5%;
+}
+
+
+.signup-box{
+   
+    border:0.001rem solid rgb(124, 119, 119);
+    width:60%;   
+    margin:6rem auto;
+}
+.signup-group{
+    
+    margin:2.7rem 1.3rem;
+
+
+}
+
+.form-headers{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-logins{
+    width:6rem;
+    height:6rem;
+    display:inline-block;
+}
+
+.form-headers h2{
+    font-size:2rem;
+    margin-left:1.2rem;
+
+}
+
+.form-h2{
+    font-size:2rem;
+    text-align:center;
+}
+
+.navu-link{
+    color:rgb(48, 206, 43);
+    font-size:2rem;
+}
+
+.sign-input{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-input input{
+    width:60%;
+    height:3.6rem;
+    border:none;
+    outline:none;
+    padding-left:1.2rem;
+    font-size:1.5rem;
+    
+    border:0.2rem solid rgb(97, 92, 92);
+
+}
+
+.sign-input input:focus{
+    border:0.2rem solid rgb(39, 38, 41);
+
+}
+
+.sign-submit{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.btn-submit{
+    background-color: black;
+    width:60%;
+    color:white;
+    height:3.8rem;
+    font-weight:bold;
+    font-size:1.5rem;
+    cursor:pointer;
+    border:0.2rem solid black;
+    margin-top:1.2rem;
+}
+
+.privacy{
+    text-align:center;
+    font-size:1.2rem;
+    margin-top:0.5rem;
+    margin-bottom:1rem;
+}

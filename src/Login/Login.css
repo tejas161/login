@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+html{
+    font-size:62.5%;
+}
+
+
+
+
+.login-box{
+   
+    border:0.001rem solid rgb(124, 119, 119);
+    width:60%;   
+    margin:6rem auto;
+   
+  
+}
+
+.login-grp{
+    margin:2rem 1.3rem;
+    
+   
+}
+
+.form-header{
+    display:flex;
+    align-items: center;
+}
+.img-login{
+    width:6rem;
+    height:6rem;
+    display:inline-block;
+}
+
+.form-header h2{
+    font-size:2rem;
+    margin-left:1.2rem;
+    font-weight: bold;
+
+}
+
+.form-2 h3{
+    font-size:4rem;
+}
+
+.form-2 p{
+    font-size:2.2rem;
+    padding-top:2rem;
+}
+
+.navu-link{
+    text-decoration: none;
+    color:rgb(48, 206, 43);
+}
+
+.input-form input{
+    width:60%;
+    height:4rem;
+    border:none;
+    outline:none;
+    padding-left:1.2rem;
+    font-size:1.5rem;
+    border:0.2rem solid rgb(97, 92, 92);
+}
+
+.input-form input:focus{
+    border:0.2rem solid rgb(39, 38, 41);
+
+}
+
+.check-form h3{
+    font-size:1.6rem;
+    
+}
+
+
+
+.btn-submit{
+    background-color: rgb(80, 76, 76);
+    border:0.2rem solid rgb(61, 59, 59);
+    width:60%;
+    color:white;
+    height:3.8rem;
+    font-size:1.5rem;
+    cursor:pointer;
+    margin-top:1.2rem;
+
+}
+
+.btn-submit:hover{
+    background-color: black;
+    border:0.4rem solid black;
+}
+
+.f-icons{
+    font-size:2rem;
+    padding-right:1rem;
+}
+
+.btn-forms p{
+    width:60%;
+    margin-top:1.2rem;
+    font-weight: bold;
+    font-size:2rem;
+    text-align:center;
+}
+
+
+.btn-nav{
+    border:0.2rem solid black;
+    color:black;
+    width:28%;
+    margin-top:1.2rem;
+    margin-right:0.8rem;
+    height:3.6rem;
+    cursor:pointer;
+}
+.btn-nav a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size:1rem;
+}
