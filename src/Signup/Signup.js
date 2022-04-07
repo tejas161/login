@@ -8,12 +8,12 @@ const Signup = () => {
         <>
             <div className="signup-box">
                 <div className="signup-group form-headers">
-                    <img className="img-logins" src="./images/img1.jpeg" alt="a image" />
+                    <img className="img-logins" src="./images/img2.jpeg" alt="a image" />
                     <h2>ALPHA-X</h2>
                 </div>
                 <div className="signup-group form-h2">
                     <h2>Create an Account</h2>
-                    <p><NavLink className="navu-link" to='/'>Back to Login Page</NavLink></p>
+                    <p><NavLink className="navu-link" to='/login'>Back to Login Page</NavLink></p>
                 </div>
                 <div className="signup-group sign-input">
                     <input type="text" id="username" autoComplete="off" name="username" placeholder="  Username" />
